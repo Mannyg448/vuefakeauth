@@ -20,6 +20,10 @@
                      <router-link to="/us">
                     <li class="py-8 px-4 hover:cursor-pointer hover:bg-gray-500 hover:text-pink-300">Us</li>
                     </router-link>
+
+                     <router-link to="/secret">
+                    <li class="py-8 px-4 hover:cursor-pointer hover:bg-gray-500 hover:text-pink-300">Secret</li>
+                    </router-link>
                     
                 </ul>
 
