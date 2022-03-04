@@ -1,3 +1,13 @@
+<script setup>
+import useAuth from "../composable/useAuth";
+const { isAuthenticated, logout} = useAuth();
+
+
+</script>
+
+
+
+
 <template>
    <div class="bg-pink-300 text-gray-500">
         <div class="container mx-auto flex items-center italic justify-between ">
@@ -14,7 +24,7 @@
                     <li class="py-8 px-4 hover:cursor-pointer hover:bg-gray-500 hover:text-pink-300">About</li>
                     </router-link>
                     <router-link to="/login">
-                    <li class="py-8 px-4 hover:cursor-pointer hover:bg-gray-500 hover:text-pink-300">Hello</li>
+                    <li class="py-8 px-4 hover:cursor-pointer hover:bg-gray-500 hover:text-pink-300">login</li>
                     </router-link>
 
                      <router-link to="/us">
