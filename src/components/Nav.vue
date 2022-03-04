@@ -1,24 +1,24 @@
 <template>
-   <div class="bg-white text-red-800">
+   <div class="bg-pink-300 text-gray-500">
         <div class="container mx-auto flex items-center italic justify-between ">
             <h1 class="tracking-tighter text-3xl font-semibold">
-                Basic<span class="font-normal">Router</span>
+                Vue<span class="font-normal">FakeAuth</span>
                 </h1>
             <nav>
                 <ul class="flex space-x-4">
                     <router-link to="/">
-                    <li class="py-8 px-4  hover:cursor-pointer hover:bg-gray-500 hover:text-white">
+                    <li class="py-8 px-4  hover:cursor-pointer hover:bg-gray-500 hover:text-pink-300">
                         Home
                         </li></router-link>
                      <router-link to="/about">   
-                    <li class="py-8 px-4 hover:cursor-pointer hover:bg-gray-500 hover:text-white">About</li>
+                    <li class="py-8 px-4 hover:cursor-pointer hover:bg-gray-500 hover:text-pink-300">About</li>
                     </router-link>
                     <router-link to="/hello">
-                    <li class="py-8 px-4 hover:cursor-pointer hover:bg-gray-500 hover:text-white">Hello</li>
+                    <li class="py-8 px-4 hover:cursor-pointer hover:bg-gray-500 hover:text-pink-300">Hello</li>
                     </router-link>
 
                      <router-link to="/us">
-                    <li class="py-8 px-4 hover:cursor-pointer hover:bg-gray-500 hover:text-white">Us</li>
+                    <li class="py-8 px-4 hover:cursor-pointer hover:bg-gray-500 hover:text-pink-300">Us</li>
                     </router-link>
                     
                 </ul>
