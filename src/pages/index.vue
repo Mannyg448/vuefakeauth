@@ -1,3 +1,11 @@
+<script setup></script>
+
+
+
+
 <template>
-<h1 class="text-red-500 italic ">Home Page</h1>
+<div class="flex justify-center flex-col space-y-12 items-center min-h-screen-nonav">
+    <h2 class="text-gray-500 font-extralight text-6xl">Welcome</h2>
+<img src="../assets/bgindex.png" alt="Hello BG">
+</div>
 </template>

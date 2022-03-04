@@ -13,7 +13,7 @@
                      <router-link to="/about">   
                     <li class="py-8 px-4 hover:cursor-pointer hover:bg-gray-500 hover:text-pink-300">About</li>
                     </router-link>
-                    <router-link to="/hello">
+                    <router-link to="/login">
                     <li class="py-8 px-4 hover:cursor-pointer hover:bg-gray-500 hover:text-pink-300">Hello</li>
                     </router-link>
 
