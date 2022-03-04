@@ -1,10 +1,7 @@
 <script setup>
 import useAuth from "../composable/useAuth";
-const { isAuthenticated, logout} = useAuth();
-
-
+const {isAuthenticated, logout} = useAuth();
 </script>
-
 
 
 
@@ -23,17 +20,19 @@ const { isAuthenticated, logout} = useAuth();
                      <router-link to="/about">   
                     <li class="py-8 px-4 hover:cursor-pointer hover:bg-gray-500 hover:text-pink-300">About</li>
                     </router-link>
-                    <router-link to="/login">
-                    <li class="py-8 px-4 hover:cursor-pointer hover:bg-gray-500 hover:text-pink-300">login</li>
+                    <router-link v-if="!isAuthenticated" to="/login">
+                    <li class="py-8 px-4 hover:cursor-pointer hover:bg-gray-500 hover:text-pink-300">Login</li>
                     </router-link>
 
-                     <router-link to="/us">
-                    <li class="py-8 px-4 hover:cursor-pointer hover:bg-gray-500 hover:text-pink-300">Us</li>
-                    </router-link>
-
-                     <router-link to="/secret">
+                    
+                     <router-link v-else to="/secret">
                     <li class="py-8 px-4 hover:cursor-pointer hover:bg-gray-500 hover:text-pink-300">Secret</li>
                     </router-link>
+
+
+                     <button v-else @click="logout">
+                    <li class="py-8 px-4 hover:cursor-pointer hover:bg-gray-500 hover:text-pink-300">Logout</li>
+                    </button>
                     
                 </ul>
 

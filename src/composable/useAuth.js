@@ -1,4 +1,4 @@
-import {ref } from "vue";
+import {ref} from "vue";
 
 const isAuthenticated = ref(false);
 
@@ -29,4 +29,6 @@ const useAuth = () => {
 
 
     };
+
+    export default useAuth;
 
