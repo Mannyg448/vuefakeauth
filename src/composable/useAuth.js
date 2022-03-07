@@ -5,7 +5,7 @@ const isAuthenticated = ref(false);
 const user = ref("");
 
 const usersFromDB = [
- {username: "admin", password: "admin", name:"Administrator"},
+ {username: "admin", password: "admin", name:"Felipe!"},
  {username: "mannyg", password: "password", name:"Manny"},
 ];
 
